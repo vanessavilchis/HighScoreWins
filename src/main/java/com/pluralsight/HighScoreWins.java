@@ -18,7 +18,11 @@ public class HighScoreWins {
         int homeTeamScore = Integer.parseInt(scores[0]);
         int visitorTeamScore = Integer.parseInt(scores[1]);
 
-        if (homeTeamScore > visitorTeamScore
-
-    }
+        if (homeTeamScore > visitorTeamScore) {
+            System.out.println("Winner: " + homeTeam + "!");
+        }else if (visitorTeamScore > homeTeamScore){
+            System.out.println("Winner: " + visitorTeamScore + "!");
+            else:
+            System.out.println("Tie");
+        }
 }
